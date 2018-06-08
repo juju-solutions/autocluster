@@ -9,4 +9,7 @@ ARCH=arm64 ./autocluster.sh
 
 ## Notes
 
-* This script needs some love - `NODE_COUNT` should be parameterized, and we might be able to parallelize more things.
+This script needs some love:
+* `NODE_COUNT` should be parameterized.
+* `ubuntu` user assumed, along with `/home/ubuntu/.ssh/id_rsa.pub` etc.
+* We might be able to parallelize more things.
